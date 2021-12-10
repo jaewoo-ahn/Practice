@@ -4,6 +4,7 @@ import FeatureLarge from './Practice/FeatureLagrge/FeatureLarge';
 import IntroduceCard from './Practice/IntroduceCard/IntroduceCard';
 import SmallCard from './Practice/SmallCard/SmallCard';
 import Market from './Practice/infinityscroll/Infinity';
+import ButtonState from './Practice/buttonState/ButtonState';
 
 function Router() {
   return (
@@ -14,6 +15,7 @@ function Router() {
         <Route path="Intro" element={<IntroduceCard />} />
         <Route path="/small" element={<SmallCard />} />
         <Route path="/infinit" element={<Market />} />
+        <Route path="/buttonState" element={<ButtonState />} />
       </Routes>
     </BrowserRouter>
   );

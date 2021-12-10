@@ -17,7 +17,7 @@ function FeatureLarge() {
                 <Name>JaewooAhn</Name>
               </AvatarImfo>
               <LeftInfo>
-                <Info>asdasdasdasd</Info>
+                <Info>asdasd</Info>
               </LeftInfo>
             </Avatar>
           </Artist>

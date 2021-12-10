@@ -1,10 +1,58 @@
-.centered {
-  background-color: red;
-  width: 1000px;
-  height: 1000px;
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(4, 4fr);
-    grid-gap: 20px;
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+  .buttonWrapper {
+    .buttons {
+      width: 200px;
+      height: 100px;
+      margin-left: 20px;
+      border-radius: 20px;
+    }
   }
+  .viewingcard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    width: 800px;
+    height: 800px;
+    border: 1px solid black;
+    font-size: 100px;
+    transition: transform 250ms;
+    border-radius: 20px;
+    background-color: beige;
+  }
+  .secondcard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    width: 800px;
+    height: 800px;
+    border: 1px solid black;
+    font-size: 100px;
+    transition: transform 250ms;
+    border-radius: 20px;
+    background-color: beige;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+}
+.viewingcard:hover {
+  transform: translateY(-10px);
 }
