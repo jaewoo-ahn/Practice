@@ -1,0 +1,61 @@
+.iTemsWrapper {
+  position: absolute;
+  width: 364px;
+  left: 0px;
+  top: 40px;
+  .klaytonInfoWrapper {
+    position: absolute;
+    height: 48px;
+    left: 206px;
+    top: 0px;
+    .klaytonBox {
+      position: absolute;
+      width: 164px;
+      height: 48px;
+      left: 0px;
+      top: 0px;
+      .klaytonImgWrapper {
+        position: absolute;
+        width: 48px;
+        height: 48px;
+        left: 0px;
+        top: 0px;
+        background-color: red;
+        border-radius: 100%;
+      }
+    }
+    .klaytonTextWrapper {
+      position: absolute;
+      width: 100px;
+      height: 41px;
+      left: 59px;
+      top: 3px;
+      .KlaytonPrice {
+        position: absolute;
+        left: 0%;
+        right: 56%;
+        top: 0%;
+        bottom: 51.22%;
+        font-family: Pretendard;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 20px;
+        color: #9e9e9e;
+      }
+      .EthereumPrice {
+        position: absolute;
+        left: 0%;
+        right: 6%;
+        top: 41.46%;
+        bottom: 0%;
+        font-family: Pretendard;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #222222;
+      }
+    }
+  }
+}

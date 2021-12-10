@@ -1,0 +1,10 @@
+.centered {
+  background-color: red;
+  width: 1000px;
+  height: 1000px;
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    grid-gap: 20px;
+  }
+}
